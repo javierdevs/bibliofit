@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+font-size: 62.5%;
+}
+
+/* main {
+  width: 100vw;
+  height: 100vh;
+} */
+body {
+    background: linear-gradient(90deg, 
+        #ffffff 0%,     /* Color 1: Rosa */
+        #fac27d 25%,    /* Color 2: Azul */
+        #c09b6d 50%,    /* Color 3: Amarillo */
+        #86745d 75%,    /* Color 4: Verde */
+        #4d4d4d 100%    /* Color 5: Morado */
+    );
+}
+  .logo-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    
+    .logo-container img {
+      width: 50rem;
+      height: 16rem;
+      margin-right: 1rem;
+    }
+    .main-nav {
+        margin-top: 0.5rem;
+       font-size: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+        
+        
+    }
+    .main-nav_item {
+        display:contents;
+        justify-content: center;
+        align-items: center;     
+               
+    }
+
+    .main-nav_item a {
+        color: black;
+        padding: 0.5rem;
+        border-radius: 0.2rem;
+        
+        
+    }
+
+    .main-nav_item a:hover {
+        color: gray;
+    }
+    .main-nav_item a:active {
+        color: #86745d;
+    }
+    .gif {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+      }
+      
+      .gif img {
+        margin: 0 auto;
+      }
+      
+      .gif h2 {
+        margin-top: 2rem;
+      } 
+
+      .gif {
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+      }
+
+      @media (min-width: 600px) {
+
+      }
