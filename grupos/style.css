@@ -11,10 +11,6 @@ main {
   width: 100vw;
   height: 100vh;
 }
-main {
-  min-height: 80vh; /* Ajusta la altura mínima del contenido principal */
-  margin-bottom: 100px; /* Deja un espacio inferior para el footer */
-}
 body {
     background: linear-gradient(90deg, 
         #ffffff 0%,     /* Color 1: Rosa */
@@ -86,22 +82,7 @@ body {
         margin-bottom: 2rem;
         margin-top: 2rem;
       }
-
-      footer {
-        text-align: center;
-        margin-top: 20px;
-      }
-      footer {
-        display: flex;
-        flex-direction: column;
-        align-items: end;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        background-color: #f2f2f2;
-        padding: 20px;
-      }
-
+      
       @media (min-width: 768px) {
         .main-nav {
           font-size: 350%;
