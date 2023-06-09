@@ -10,10 +10,10 @@ html {
 body {
     background: linear-gradient(90deg, 
         #ffffff 0%,     /* Color 1: Rosa */
-        #fac27d 25%,    /* Color 2: Azul */
-        #c09b6d 50%,    /* Color 3: Amarillo */
-        #86745d 75%,    /* Color 4: Verde */
-        #4d4d4d 100%    /* Color 5: Morado */
+        #FFC0CB 25%,    /* Color 2: Azul */
+        #FFB6C1 50%,    /* Color 3: Amarillo */
+        #FF69B4 75%,    /* Color 4: Verde */
+        #FF1493 100%    /* Color 5: Morado */
     );
 }
   .logo-container {
