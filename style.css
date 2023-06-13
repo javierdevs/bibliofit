@@ -5,6 +5,7 @@
 }
 html {
     font-size: 62.5%;
+    font-family: 'Anton', sans-serif;
     }
 
 body {
@@ -46,21 +47,30 @@ body {
       }
       
       .main-nav_item a {
-        color: black;
+        /* background-color: gray;
+        border: #121011; */
+        color: white;
+        padding: 0.5rem 2rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 150%;
+        margin: 4px 2px;
+        cursor: pointer;
       }
 
 
       .main-nav_item {
-        margin-bottom: 1.5rem; 
-      }
+        margin-bottom: 0.1rem; 
+      } */
 
       main {
-        margin-bottom: 200px; /* Ajusta el valor según sea necesario */
+        margin-bottom: 200px; 
       }
       
 
     .main-nav_item a:hover {
-        color: gray;
+        color: grey;
     }
     .main-nav_item a:active {
         color: #86745d;
