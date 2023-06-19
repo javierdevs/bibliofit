@@ -96,6 +96,40 @@ body {
         margin-bottom: 2rem;
         margin-top: 2rem;
       }
+
+      #footer {
+        text-align: center;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      .logo2 img {   
+        width: 130px;
+        height: 130px;
+      }
+      .logo2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .social-links {
+        text-align: center;
+        
+
+      }
+      .social-links a {
+        padding: 0.3rem;
+      }
+      
+      .social-links img {
+        width: 50px;
+        height: 50px;
+      }
+      .social-links p {
+        font-size: 20px;
+      }
       
       @media (min-width: 768px) {
         .main-nav {
@@ -110,6 +144,10 @@ body {
         
         .gif img {
           width: 90%;
+        }
+        .logo2 img {
+          width: 200px;
+          height: 200px;
         }
         }
         .texto2 {
@@ -130,5 +168,9 @@ body {
           }
           .gif img {
             width: auto;
+          }
+          .logo2 img {
+            width: 350px;
+            height: 350px;
           }
           }
